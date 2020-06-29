@@ -26,7 +26,7 @@ public class zwiftProject {
 	  
   }
 
-  @Test(priority=1)
+   @Test(priority=1)
   public void zwift_homePage_load() throws InterruptedException {
 	  driver.get("https://www.zwift.com");
 	  
@@ -38,15 +38,6 @@ public class zwiftProject {
 	  String header = wait.until(ExpectedConditions.visibilityOfElementLocated(zap.zwiftHome_text_header())).getText();
 	  Assert.assertEquals(header, "TRAIN AT HOME");
 	  
-	  wait.until(ExpectedConditions.visibilityOfElementLocated(zap.zwiftHome_text_subHead1()));
-	  
-	  String subHead1 = wait.until(ExpectedConditions.visibilityOfElementLocated(zap.zwiftHome_text_subHead1())).getText();
-	  Assert.assertEquals(subHead1, "The app for riding, running,");
-	  
-	  wait.until(ExpectedConditions.visibilityOfElementLocated(zap.zwiftHome_text_subHead2()));
-	  
-	  String subHead2 = wait.until(ExpectedConditions.visibilityOfElementLocated(zap.zwiftHome_text_subHead2())).getText();
-	  Assert.assertEquals(subHead2, "and training with your community.");
 	  wait.until(ExpectedConditions.elementToBeClickable(zap.zwiftHome_button_exploreZwift()));
 	  
 	  wait.until(ExpectedConditions.elementToBeClickable(zap.zwiftHome_button_createAccount()));
@@ -71,9 +62,7 @@ public class zwiftProject {
 	  wait.until(ExpectedConditions.visibilityOfElementLocated(zap.zwiftEvents_text_header()));
 	  
 	  String eventsHeader = wait.until(ExpectedConditions.visibilityOfElementLocated(zap.zwiftEvents_text_header())).getText();
-	  Assert.assertEquals(eventsHeader, "EVENTS\n" + 
-	  		"Looking for some company?\n" + 
-	  		"Join an official group event from the list below.");
+	  Assert.assertEquals(eventsHeader, "EVENTS");
 	  
 	  wait.until(ExpectedConditions.elementToBeClickable(zap.zwiftEvents_dropDownMenu_allSports())).click();
 	  wait.until(ExpectedConditions.elementToBeClickable(zap.zwiftEvents_dropDown_running())).click();
@@ -99,9 +88,6 @@ public class zwiftProject {
   @AfterMethod
   public void tearDown() {
 		driver.quit();
-  }
-
-}
 
 
 
