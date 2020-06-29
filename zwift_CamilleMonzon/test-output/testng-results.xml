@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25046" started-at="2020-06-29T09:43:25Z" finished-at="2020-06-29T09:43:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25046" started-at="2020-06-29T09:43:25Z" finished-at="2020-06-29T09:43:50Z">
+      <class name="TestCases.zwiftProject">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.zwiftProject@3e6fa38a]" name="setUp" is-config="true" duration-ms="3179" started-at="2020-06-29T09:43:25Z" finished-at="2020-06-29T09:43:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="zwift_homePage_load()[pri:1, instance:TestCases.zwiftProject@3e6fa38a]" name="zwift_homePage_load" duration-ms="6147" started-at="2020-06-29T09:43:28Z" finished-at="2020-06-29T09:43:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zwift_homePage_load -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.zwiftProject@3e6fa38a]" name="tearDown" is-config="true" duration-ms="347" started-at="2020-06-29T09:43:34Z" finished-at="2020-06-29T09:43:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.zwiftProject@3e6fa38a]" name="setUp" is-config="true" duration-ms="1975" started-at="2020-06-29T09:43:35Z" finished-at="2020-06-29T09:43:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="zwift_eventsPage_load()[pri:2, instance:TestCases.zwiftProject@3e6fa38a]" name="zwift_eventsPage_load" duration-ms="12891" started-at="2020-06-29T09:43:37Z" finished-at="2020-06-29T09:43:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zwift_eventsPage_load -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.zwiftProject@3e6fa38a]" name="tearDown" is-config="true" duration-ms="397" started-at="2020-06-29T09:43:49Z" finished-at="2020-06-29T09:43:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.zwiftProject -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
