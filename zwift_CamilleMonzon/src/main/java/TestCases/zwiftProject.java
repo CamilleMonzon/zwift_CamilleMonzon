@@ -19,14 +19,14 @@ public class zwiftProject {
 
   @BeforeMethod
   public void setUp() {
-	  System.setProperty("webdriver.chrome.driver", "//usr/local/bin/chromedriver");
+	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\camon\\Downloads\\chromedriver_win32\\chromedriver.exe");
 	  driver = new ChromeDriver();
 	  driver.manage().window().maximize();
 	  wait = new WebDriverWait(driver,10);
 	  
   }
 
-   @Test(priority=1)
+  @Test(priority=1)
   public void zwift_homePage_load() throws InterruptedException {
 	  driver.get("https://www.zwift.com");
 	  
@@ -88,6 +88,9 @@ public class zwiftProject {
   @AfterMethod
   public void tearDown() {
 		driver.quit();
+  }
+
+}
 
 
 
