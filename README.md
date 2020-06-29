@@ -1,5 +1,7 @@
 # zwift_CamilleMonzon
 
+
+Link to Google Doc https://docs.google.com/document/d/1Yt-RDwlrXHc7lolpFN82HdT9q9AiTS3MeIFx3JZUdEs/edit?usp=sharing
 ----------------------------
 If using WINDOWS
 
